@@ -6,6 +6,8 @@ public class Main {
         System.out.println(num);
         if(num > 1){
             System.out.println("Num is greater than 1");
+        } else if (num < 1) {
+            System.out.println("Num is less than 1");
         }
 
     }
